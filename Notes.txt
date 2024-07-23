@@ -1,0 +1,7 @@
+scene.gltf  model for 3d
+OrbitControls= left -right zoom etc
+
+ maxPolarAngle={math.PI/2} minPolarAngle={math.PI/2} => not allow to roate all the way up and down
+ Turbosquid ,SketchFab- for modeling 3d designs
+
+ HOC - because we are going to have another component in it-that imediately going to return another funtion

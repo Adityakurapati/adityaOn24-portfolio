@@ -1,3 +1,4 @@
-
->> npx tailwind init
->> npm i --lagacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
+>> npm i -D tailwindscss autoprefixer
+>> npx tailwind init -p
+>> npm i --lagacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt 
+react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
