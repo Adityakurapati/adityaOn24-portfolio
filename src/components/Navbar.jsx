@@ -19,7 +19,7 @@ const Navbar=() =>
                                                 setActive( "" )
                                                 window.scrollTo( 0, 0 )
                                         } } >
-                                        <img src={ logo } alt="" className='w-9 h-9 object-contain ' />
+                                        <img src={ logo } alt="" className='w-9 h-9 object-contain rounded-full' />
 
                                         <p className='ext-white font-bold cursor-pointer text-[18px]'>|   Aditya Kurapati</p>
 

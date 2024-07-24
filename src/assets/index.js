@@ -1,4 +1,4 @@
-import logo from "./logo.jpg";
+import logo from "./Adityalogo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,6 +20,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import laravel from "./tech/laravel.webp";
+import django from "./tech/django.webp";
+import wordpress from "./tech/wordpress.webp";
+import arduino from "./tech/arduino.webp";
+import java from "./tech/java.webp";
+import jsp from "./tech/jsp.webp";
+import blender from "./tech/blender.webp";
+import android from "./tech/android.webp";
+import python from "./tech/python.webp";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -60,4 +69,5 @@ export
         carrent,
         jobit,
         tripguide,
+        laravel, arduino, django, blender, jsp, wordpress, java, android, python
 };

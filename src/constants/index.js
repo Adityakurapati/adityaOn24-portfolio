@@ -24,6 +24,9 @@ import
         jobit,
         tripguide,
         threejs,
+        laravel, arduino, django, blender, jsp, wordpress, java,
+        android,
+        python
 } from "../assets";
 
 export const navLinks=[
@@ -55,7 +58,7 @@ const services=[
                 icon: backend,
         },
         {
-                title: "Content Creator",
+                title: "App Developer",
                 icon: creator,
         },
 ];
@@ -110,62 +113,103 @@ const technologies=[
                 icon: figma,
         },
         {
-                name: "docker",
-                icon: docker,
+                name: "Laravel PHP",
+                icon: laravel,
+        },
+        {
+                name: "java",
+                icon: java,
+        },
+        {
+                name: "jsp",
+                icon: jsp,
+        },
+        {
+                name: "arduino",
+                icon: arduino,
+        },
+        {
+                name: "wordpress",
+                icon: wordpress,
+        },
+        {
+                name: "django",
+                icon: django,
+        },
+        {
+                name: "blender",
+                icon: blender,
         },
 ];
 
 const experiences=[
         {
-                title: "React.js Developer",
-                company_name: "Starbucks",
-                icon: starbucks,
+                title: "Wordpress Developer ",
+                icon: wordpress,
                 iconBg: "#383E56",
-                date: "March 2020 - April 2021",
+                date: "April 2022 - june 2022",
                 points: [
-                        "Developing and maintaining web applications using React.js and other related technologies.",
-                        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-                        "Implementing responsive design and ensuring cross-browser compatibility.",
-                        "Participating in code reviews and providing constructive feedback to other developers.",
+                        "Developed CMS For Government Polytechnic Solapur. "
                 ],
         },
         {
-                title: "React Native Developer",
-                company_name: "Tesla",
-                icon: tesla,
+                title: "Android Developer",
+                icon: android,
+                iconBg: "#383E56",
+                date: "Jan 2023 - April 2023",
+                points: [
+                        "Developed The Cool Music App With Awesome Interface "
+                ],
+        },
+        {
+                title: "Node Js Developer",
+                icon: nodejs,
+                iconBg: "#383E56",
+                date: "Aug 2022 - April 2024",
+                points: [
+                        "Developed The StudyGears Website Using Nodejs and  EJS | PUG For Providing Easy Access To Some Online Tech Courses Available On Udemy , ",
+                        "Developer Linux Based File Organizer With C Library ana NodeJs"
+                ],
+        },
+        {
+                title: "Arduino IOT(Hardware)",
+                icon: arduino,
                 iconBg: "#E6DEDD",
-                date: "Jan 2021 - Feb 2022",
+                date: "Jan 2019 - Feb 2023",
                 points: [
-                        "Developing and maintaining web applications using React.js and other related technologies.",
-                        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-                        "Implementing responsive design and ensuring cross-browser compatibility.",
-                        "Participating in code reviews and providing constructive feedback to other developers.",
+                        "Automated Heavy Load Monitoring System Using IOT Sensor Like load Cell , servo Motor , Rfid Controller, Arduino Uno",
+                        "Pet Monitoring Web And Hardware based System With PIR Motion Sensor , Ultrasonic , Water Motor Dc",
+                        "2019- UTurn Prevention System On Mountains"
                 ],
         },
         {
-                title: "Web Developer",
-                company_name: "Shopify",
-                icon: shopify,
+                title: "React With Python",
+                icon: python,
                 iconBg: "#383E56",
-                date: "Jan 2022 - Jan 2023",
+                date: "Aug 2023 - April 2024",
                 points: [
-                        "Developing and maintaining web applications using React.js and other related technologies.",
-                        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-                        "Implementing responsive design and ensuring cross-browser compatibility.",
-                        "Participating in code reviews and providing constructive feedback to other developers.",
+                        "AI Based IPL Winner Prediction Website Using Django with React",
+                        "AI Video Summarization System For Easier Content Understanding(flask)",
+                        "Smart Blind Assistant(Hardware+Web)",
                 ],
         },
         {
-                title: "Full stack Developer",
+                title: "PHP Laravel",
+                icon: laravel,
+                iconBg: "#383E56",
+                date: "Feb 2024 - April 2024",
+                points: [
+                        "Web Application To show Real TIme air Quality with VIsuallization using DHT-11 , MQtt Sensor ",
+                ],
+        },
+        {
+                title: "NEXT JS",
                 company_name: "Meta",
                 icon: meta,
                 iconBg: "#E6DEDD",
-                date: "Jan 2023 - Present",
+                date: "April 2024 - Present",
                 points: [
-                        "Developing and maintaining web applications using React.js and other related technologies.",
-                        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-                        "Implementing responsive design and ensuring cross-browser compatibility.",
-                        "Participating in code reviews and providing constructive feedback to other developers.",
+                        "PMPML Passenger Monitoring System with NextJs , Redis",
                 ],
         },
 ];
@@ -199,68 +243,174 @@ const testimonials=[
 
 const projects=[
         {
-                name: "Car Rent",
+                name: "AI Video Summarizer Bot",
                 description:
-                        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+                        "A web platform that uses AssemblyAI to transcribe and summarize video content. Users can input video URLs or upload files, and the summarized text is presented through the website.",
                 tags: [
                         {
-                                name: "react",
+                                name: "React",
                                 color: "blue-text-gradient",
                         },
                         {
-                                name: "mongodb",
+                                name: "Flask",
                                 color: "green-text-gradient",
                         },
                         {
-                                name: "tailwind",
+                                name: "NLP",
                                 color: "pink-text-gradient",
                         },
                 ],
-                image: carrent,
-                source_code_link: "https://github.com/",
+                image: "path_to_image/ai_video_summarizer.jpg", // Replace with actual image path
+                source_code_link: "https://github.com/", // Replace with actual link if available
         },
         {
-                name: "Job IT",
+                name: "Linux File Organizer",
                 description:
-                        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+                        "A Node.js application that integrates with C programs to organize files on a Linux filesystem using BST and Heap Sort algorithms. The project focuses on efficient file management and sorting operations.",
                 tags: [
                         {
-                                name: "react",
+                                name: "Node.js",
                                 color: "blue-text-gradient",
                         },
                         {
-                                name: "restapi",
+                                name: "C",
                                 color: "green-text-gradient",
                         },
                         {
-                                name: "scss",
+                                name: "Linux",
                                 color: "pink-text-gradient",
                         },
                 ],
-                image: jobit,
-                source_code_link: "https://github.com/",
+                image: "path_to_image/linux_file_organizer.jpg", // Replace with actual image path
+                source_code_link: "https://github.com/", // Replace with actual link if available
         },
         {
-                name: "Trip Guide",
+                name: "ThirdEye Blind Assistant",
                 description:
-                        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+                        "An assistive technology project aimed at helping blind individuals in their daily lives using machine learning and IoT technologies. The project includes web development for interface and ESP32 microcontrollers for device integration.",
                 tags: [
                         {
-                                name: "nextjs",
+                                name: "Machine Learning",
                                 color: "blue-text-gradient",
                         },
                         {
-                                name: "supabase",
+                                name: "IoT",
                                 color: "green-text-gradient",
                         },
                         {
-                                name: "css",
+                                name: "Python",
                                 color: "pink-text-gradient",
                         },
                 ],
-                image: tripguide,
-                source_code_link: "https://github.com/",
+                image: "path_to_image/thirdeye_blind_assistant.jpg", // Replace with actual image path
+                source_code_link: "https://github.com/", // Replace with actual link if available
+        },
+        {
+                name: "Environment Health Monitoring Device",
+                description:
+                        "A device designed to monitor environmental health parameters using sensors and microcontrollers, integrated with an IoT platform for data collection and visualization.",
+                tags: [
+                        {
+                                name: "IoT",
+                                color: "blue-text-gradient",
+                        },
+                        {
+                                name: "ESP8266",
+                                color: "green-text-gradient",
+                        },
+                        {
+                                name: "Laravel",
+                                color: "pink-text-gradient",
+                        },
+                ],
+                image: "path_to_image/environment_health_monitor.jpg", // Replace with actual image path
+                source_code_link: "https://github.com/", // Replace with actual link if available
+        },
+        {
+                name: "Automated Heavy Load Monitoring System",
+                description:
+                        "An IoT-based system that monitors and controls vehicle load using RFID, load cells, and servo motors. The system ensures vehicles are loaded within safe limits.",
+                tags: [
+                        {
+                                name: "IoT",
+                                color: "blue-text-gradient",
+                        },
+                        {
+                                name: "RFID",
+                                color: "green-text-gradient",
+                        },
+                        {
+                                name: "Microcontrollers",
+                                color: "pink-text-gradient",
+                        },
+                ],
+                image: "path_to_image/heavy_load_monitor.jpg", // Replace with actual image path
+                source_code_link: "https://github.com/", // Replace with actual link if available
+        },
+        {
+                name: "Pet Monitoring System using IoT and Node.js",
+                description:
+                        "A monitoring system that uses sensors to track pet activities and environmental conditions. Data is sent to a ThingSpeak server and displayed on a custom website.",
+                tags: [
+                        {
+                                name: "IoT",
+                                color: "blue-text-gradient",
+                        },
+                        {
+                                name: "Node.js",
+                                color: "green-text-gradient",
+                        },
+                        {
+                                name: "PugJS",
+                                color: "pink-text-gradient",
+                        },
+                ],
+                image: "path_to_image/pet_monitoring_system.jpg", // Replace with actual image path
+                source_code_link: "https://github.com/", // Replace with actual link if available
+        },
+        {
+                name: "IPL Winner Prediction using ML",
+                description:
+                        "A machine learning project that predicts IPL match outcomes based on historical data, player statistics, and other relevant features.",
+                tags: [
+                        {
+                                name: "Machine Learning",
+                                color: "blue-text-gradient",
+                        },
+                        {
+                                name: "Python",
+                                color: "green-text-gradient",
+                        },
+                        {
+                                name: "Data Analysis",
+                                color: "pink-text-gradient",
+                        },
+                ],
+                image: "path_to_image/ipl_prediction.jpg", // Replace with actual image path
+                source_code_link: "https://github.com/", // Replace with actual link if available
+        },
+        {
+                name: "CMS for Study Material Monitoring",
+                description:
+                        "A content management system designed to facilitate easy access to lab manuals, past question papers, and syllabus documents for students.",
+                tags: [
+                        {
+                                name: "WordPress",
+                                color: "blue-text-gradient",
+                        },
+                        {
+                                name: "PHP",
+                                color: "green-text-gradient",
+                        },
+                        {
+                                name: "MySQL",
+                                color: "pink-text-gradient",
+                        },
+                ],
+                image: "path_to_image/cms_study_material.jpg", // Replace with actual image path
+                source_code_link: "https://github.com/", // Replace with actual link if available
         },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };
