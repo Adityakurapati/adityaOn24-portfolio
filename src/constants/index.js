@@ -26,7 +26,7 @@ import
         threejs,
         laravel, arduino, django, blender, jsp, wordpress, java,
         android,
-        python
+        python, gov_project, blind_assist, env_project1, ipl_project, linux_project, load_project, pet_project, studygears_project, summarize_project
 } from "../assets";
 
 export const navLinks=[
@@ -260,7 +260,7 @@ const projects=[
                                 color: "pink-text-gradient",
                         },
                 ],
-                image: "path_to_image/ai_video_summarizer.jpg", // Replace with actual image path
+                image: summarize_project, // Replace with actual image path
                 source_code_link: "https://github.com/", // Replace with actual link if available
         },
         {
@@ -281,7 +281,7 @@ const projects=[
                                 color: "pink-text-gradient",
                         },
                 ],
-                image: "path_to_image/linux_file_organizer.jpg", // Replace with actual image path
+                image: linux_project,
                 source_code_link: "https://github.com/", // Replace with actual link if available
         },
         {
@@ -302,7 +302,7 @@ const projects=[
                                 color: "pink-text-gradient",
                         },
                 ],
-                image: "path_to_image/thirdeye_blind_assistant.jpg", // Replace with actual image path
+                image: blind_assist,
                 source_code_link: "https://github.com/", // Replace with actual link if available
         },
         {
@@ -323,7 +323,7 @@ const projects=[
                                 color: "pink-text-gradient",
                         },
                 ],
-                image: "path_to_image/environment_health_monitor.jpg", // Replace with actual image path
+                image: env_project1,
                 source_code_link: "https://github.com/", // Replace with actual link if available
         },
         {
@@ -344,7 +344,7 @@ const projects=[
                                 color: "pink-text-gradient",
                         },
                 ],
-                image: "path_to_image/heavy_load_monitor.jpg", // Replace with actual image path
+                image: load_project,
                 source_code_link: "https://github.com/", // Replace with actual link if available
         },
         {
@@ -365,7 +365,7 @@ const projects=[
                                 color: "pink-text-gradient",
                         },
                 ],
-                image: "path_to_image/pet_monitoring_system.jpg", // Replace with actual image path
+                image: pet_project,
                 source_code_link: "https://github.com/", // Replace with actual link if available
         },
         {
@@ -386,7 +386,7 @@ const projects=[
                                 color: "pink-text-gradient",
                         },
                 ],
-                image: "path_to_image/ipl_prediction.jpg", // Replace with actual image path
+                image: ipl_project,
                 source_code_link: "https://github.com/", // Replace with actual link if available
         },
         {
@@ -407,7 +407,7 @@ const projects=[
                                 color: "pink-text-gradient",
                         },
                 ],
-                image: "path_to_image/cms_study_material.jpg", // Replace with actual image path
+                image: gov_project,
                 source_code_link: "https://github.com/", // Replace with actual link if available
         },
 ];

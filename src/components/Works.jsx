@@ -1,16 +1,15 @@
-import React from 'react'
-import styles from '../styles'
-import { SectionWrapper } from '../hoc'
+import React from 'react';
+import styles from '../styles';
+import { SectionWrapper } from '../hoc';
 import { motion } from 'framer-motion';
 import { github } from '../assets';
-import { projects } from '../constants'
+import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation } from 'swiper/modules';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
@@ -36,7 +35,17 @@ const ProjectCard=( { index, name, description, tags, image, source_code_link } 
                         ) ) }
                 </div>
         </div>
-)
+);
+
+const swiperStyles={
+        slide: {
+                transform: 'scale(0.85)',
+                transition: 'transform 0.3s',
+        },
+        activeSlide: {
+                transform: 'scale(1)',
+        },
+};
 
 const Works=() =>
 {
@@ -54,34 +63,29 @@ const Works=() =>
 
                         <div className='mt-20'>
                                 <Swiper
-                                        effect={ 'coverflow' }
                                         grabCursor={ true }
                                         centeredSlides={ true }
                                         slidesPerView={ 3 }
                                         loop={ true }
                                         loopedSlides={ 2 }  // Ensures smooth looping
                                         spaceBetween={ 30 }  // Adds space between slides
-                                        coverflowEffect={ {
-
-                                                stretch: 0,
-                                                depth: 100,
-                                                modifier: 1,
-                                                slideShadows: true,
-                                        } }
                                         pagination={ true }
                                         navigation={ true }
-                                        modules={ [ EffectCoverflow, Pagination, Navigation ] }
+                                        modules={ [ Pagination, Navigation ] }
                                         className="mySwiper"
+                                        slideToClickedSlide={ true }
                                 >
                                         { projects.map( ( project, index ) => (
                                                 <SwiperSlide key={ `project-${ index }` }>
-                                                        <ProjectCard index={ index } { ...project } />
+                                                        <div className="swiper-slide-content" style={ swiperStyles.slide }>
+                                                                <ProjectCard index={ index } { ...project } />
+                                                        </div>
                                                 </SwiperSlide>
                                         ) ) }
                                 </Swiper>
                         </div>
                 </>
-        )
-}
+        );
+};
 
-export default SectionWrapper( Works, 'projects' )
+export default SectionWrapper( Works, 'projects' );

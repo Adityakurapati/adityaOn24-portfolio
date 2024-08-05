@@ -39,6 +39,17 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import gov_project from "./projects/gov_project.jpg";
+import blind_assist from "./projects/blind_assist.jfif";
+import env_project1 from "./projects/env_project1.jfif";
+import ipl_project from "./projects/ipl_project.jfif";
+import linux_project from "./projects/linux_project.jfif";
+import load_project from "./projects/load_project.jfif";
+import pet_project from "./projects/pet_project.jpg";
+import studygears_project from "./projects/studygears_project.jpg";
+import summarize_project from "./projects/summarize_project.jpg";
+
+
 export
 {
         logo,
@@ -70,4 +81,6 @@ export
         jobit,
         tripguide,
         laravel, arduino, django, blender, jsp, wordpress, java, android, python
+
+        , gov_project, blind_assist, env_project1, ipl_project, linux_project, load_project, pet_project, studygears_project, summarize_project
 };
